@@ -24,5 +24,38 @@
   <img src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/r-d/sunflower-oil-can-step-in-to-replace-phos-says-nsa/7392809-1-eng-GB/Sunflower-oil-can-step-in-to-replace-PHOs-says-NSA_wrbm_large.jpg" alt="SUNNY DAYS">
     <a href="./about.html">WANNA GET LIT?.</a>
   <div id ="myAnimation"></div>
+  
+  <script>
+   myMoveRight()
+function myMoveRight() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos === 300) {
+      clearInterval(id);
+      myMoveLeft()
+    } else {
+      pos = pos + 1; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+function myMoveLeft() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 300;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos === 0) {
+      clearInterval(id);
+      myMoveRight()
+    } else {
+      pos = pos - 1;
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+  
  </body>
 </html>
