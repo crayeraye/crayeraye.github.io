@@ -45,8 +45,7 @@ body {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* Left and right column */
@@ -70,9 +69,14 @@ body {
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
-  }
-}  
-  
+ }
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
 </style>
 </head>
 <body>
@@ -93,20 +97,31 @@ body {
 </div>
 
   <div class="row">
-  <div class="column">
+  <div class="column side">
+    <h2>Purpose</h2>
+    <p></p>
+  </div>
+  
+  <div class="column middle">
     <h2>Purpose</h2>
     <p>"To have a use."</p>
-  </div>
-  
-  <div class="column">
+    
     <h2>Knowledge</h2>
     <p>"Skill in, understanding of, or information about something, which a person gets by experience or study."</p>
-  </div>
-  
-  <div class="column">
+    
     <h2>Connection</h2>
     <p>"A relationship between two things, ideas, etc."</p>
   </div>
+  
+  <div class="column side">
+    <h2>Connection</h2>
+    <p></p>
+  </div>
+</div>
+  
+  
+  <div class="footer">
+  <p>contact: flowerstorm288@gmail.com</p>
 </div>
   
 </body>
