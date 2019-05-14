@@ -41,6 +41,28 @@ body {
   background-color:  #ffd699;
   color: black;
 }
+  
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}  
+  
 </style>
 </head>
 <body>
@@ -60,5 +82,22 @@ body {
   <a href="#">Purpose</a>
 </div>
 
+  <div class="row">
+  <div class="column">
+    <h2>Purpose</h2>
+    <p>"To have a use."</p>
+  </div>
+  
+  <div class="column">
+    <h2>Knowledge</h2>
+    <p>"skill in, understanding of, or information about something, which a person gets by experience or study."</p>
+  </div>
+  
+  <div class="column">
+    <h2>Connection</h2>
+    <p>"A relationship between two things, ideas, etc."</p>
+  </div>
+</div>
+  
 </body>
 </html>
