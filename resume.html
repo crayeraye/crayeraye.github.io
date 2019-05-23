@@ -1,164 +1,112 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+<title>flowerstorm resume help</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-}
-/* Style the header */
-.header {
-  background-color: #ffb84d ;
-  padding: 20px;
-  text-align: center;
-}
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: darksalmon;
-}
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/* Change color on hover */
-.topnav a:hover {
-  background-color:  #ffd699;
-  color: black;
-}
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ffb84d;
-  margin-top: 20px;
-}
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 </style>
-</head>
 <body>
 
-<div class="header">
-  <h1>Resume</h1>
-  <p>flowerstorm</p>
-</div>
-
-<div class="topnav">
-  <a href="https://crayeraye.github.io/index.html">Home</a>
-  <a href="https://crayeraye.github.io/resume.html">Resume</a>
-  <a href="#">Cover Letter</a>
-  <a href="#">Job Search</a>
-  <a href="#">Interview</a>
-  <a href="https://crayeraye.github.io/resources">Resources</a> 
-  <a href="https://crayeraye.github.io/motivation">Motivation</a>
-  <a href="#" style="float:right">Connect</a>
-</div>
-
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>Resume, CV, Cirriculum Virtue</h2>
-      <h5>Your timeline</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p></p>
-      <p></p>
-      <p></p>
-    </div>
-    <div class="card">
-      <h2>Scribble, print, type, copy, paste, touch type</h2>
-      <h5>Your timeline</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Creating timeline</p>
-      <p>You are not "copying" the words, or their words; you are doing your best to provide words to create an understanding of the actions you have carried out.</p>
-      <p><h3>Flower Storm
-      <h3>Address: Melbourne VIC, Aus
-      <h3>Mobile: 0400 000 000
-        <h3>Email: flowerstorm288@gmail.com </h3>
-      <p>You are precious and so are your personal details. Please be mindful about what information you share about yourself. 
-      <h3>Transport: Licence & vechile
-      <h3>Availability: Mon - Sun</h3>
-        I provide an employer with a Suburb, Transport & Licence (only if you have it) and commonly add Availabilty for Hospitality and other similar roles.</p>
-        
-      
-    </div>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-orange" href="javascript:void(0);" onclick="myFunction()"            title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://crayeraye.github.io/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://crayeraye.github.io/resume.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="https://crayeraye.github.io/coverletter.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cover Letter</a>
+    <a href="https://crayeraye.github.io/jobsearch.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Job Search</a>
+    <a href="https://crayeraye.github.io/interview.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interview</a>
+    <a href="https://crayeraye.github.io/motivation.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Motivation</a>
+    <a href="https://crayeraye.github.io/resources.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resources</a>
+    <a href="https://crayeraye.github.io/connect.html"class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="float:right">Connect</a>
   </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>Helpful links</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      * Youth Central VIC
-      <p>* </p>
-      <p>* </p>
-      <p>* </p>
-      <p>* </p>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+  	<a href="https://crayeraye.github.io/index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="https://crayeraye.github.io/resume.html" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+    <a href="https://crayeraye.github.io/coverletter.html" class="w3-bar-item w3-button w3-padding-large">Cover Letter</a>
+    <a href="https://crayeraye.github.io/jobsearch.html" class="w3-bar-item w3-button w3-padding-large">Job Search</a>
+    <a href="https://crayeraye.github.io/interview.html" class="w3-bar-item w3-button w3-padding-large">Interview</a>
+    <a href="https://crayeraye.github.io/motivation.html" class="w3-bar-item w3-button w3-padding-large">Motivation</a>
+    <a href="https://crayeraye.github.io/resources.html" class="w3-bar-item w3-button w3-padding-large">Resources</a>
+    <a href="https://crayeraye.github.io/connect.html" class="w3-bar-item w3-button w3-padding-large">Connect</a>
+  </div>
+</div>
+  
+  <!-- Header -->
+<header class="w3-container w3-orange w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Resume</h1>
+  <p class="w3-xlarge w3-wide">flowerstorm</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Resume, CV, Cirriculum Virtue</h1>
+      <h1>Your timeline, your story</h2>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
-    <div class="card">
-      <h3>Connect</h3>
-      <p>email: flowerstorm288@gmail.com</p>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
     </div>
   </div>
 </div>
 
-<div class="footer">
-  <h2>flowerstorm</h2>
+<!-- Second Grid -->
+<div class="w3-row-padding w3-orange w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Scribble, print, type, copy, paste, touch type</h1>
+      <h5 class="w3-padding-32">Creating YOUR story.<P>You are not "copying" the words, or their words; you are doing your best to provide words to create an understanding of the actions you have carried out.</h5>
+
+      <p class="w3-text-grey">The internet is a wonderful tool to assist you in building a resume, therefore why not use it. I looked to the internet to help me understand industries, roles, tasks, resume templates in how to build a resume </p>
+    </div>
+  </div>
 </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>flowestorm</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 </body>
 </html>
